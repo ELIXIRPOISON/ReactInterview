@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+}
+
+.digital-clock {
+  font-size: 4em;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.digit {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.digit-top, .digit-bottom {
+  width: 1em;
+  height: 1.5em;
+  position: relative;
+  background: #333;
+}
+
+.digit-border-top {
+  border-top: 4px solid #ffffff;
+}
+
+.digit-border-left {
+  border-left: 4px solid #ffffff;
+}
+
+.digit-border-right {
+  border-right: 4px solid #ffffff;
+}
+
+.digit-border-bottom {
+  border-bottom: 4px solid #ffffff;
+}
+
+.clock-separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.separator-dot {
+  width: 0.5em;
+  height: 0.5em;
+  background: #fefefe;
+  border-radius: 50%;
+  margin: 0.2em 0;
+}
